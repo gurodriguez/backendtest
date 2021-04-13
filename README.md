@@ -43,8 +43,10 @@ For using edit first settings.py
 vim setting.py
 ```
 The next VARS:
+
 #Email Setings usig AWS SES
 DEFAULT_FROM_EMAIL = 'noreply@yourDomain.mx'
+
 #system admin accounts to send notifications
 SYSADMIN = ['mailacc@mail.com']
 
