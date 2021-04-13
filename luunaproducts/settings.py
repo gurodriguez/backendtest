@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'o+_cwv^9bwub5v&^(cc5@l-3dy%bwk%1ue3eqyht6dmf2t0$=1'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -140,13 +140,13 @@ ALLOWED_HOSTS=['*']
 
 #Email Setings usig AWS SES
 EMAIL_BACKEND = 'django_ses.SESBackend'
-DEFAULT_FROM_EMAIL = 'noreply@pidecomida.mx'
+DEFAULT_FROM_EMAIL = ''
 #system admin accounts to send notifications
-SYSADMIN = ['gabriel.gurodriguez@gmail.com']
+SYSADMIN = ['']
 
 #AWS Credentials
-AWS_ACCESS_KEY_ID = 'AKIAR2MIOKBCJ7OT7SXN'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
 
 
 
