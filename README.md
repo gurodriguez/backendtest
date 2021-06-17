@@ -1,5 +1,5 @@
 # The Shopping Catalog backend
-## For Testing By Gabriel R.
+## By Gabriel R.
 
 
 
